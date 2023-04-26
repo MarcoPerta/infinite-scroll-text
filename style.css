@@ -22,7 +22,9 @@ height: 145px;
 }
 
 .stage_animation {
+/* nasconde tutto ciò che è al di fuori dell'area dell'elemento. */
 overflow: hidden;
+/* impedisce al testo all'interno dell'elemento di andare a capo */
 white-space: nowrap;
 display: inline-block;
 animation: stage_animation 5s linear infinite;
