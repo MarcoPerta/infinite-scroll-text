@@ -1,0 +1,26 @@
+
+#main_container {
+background-color: red;
+max-width: 450px;
+}
+.stage_animation {
+overflow: hidden;
+white-space: nowrap;
+display: inline-block;
+animation: stage_animation 5s linear infinite;
+}
+.stage_animation p {
+display: inline-block;
+font-family: arial;
+color: #fff;
+font-size: 30px;
+}
+
+@keyframes stage_animation {
+    0% {
+    transform: translate3d(0, 0, 0);
+    }
+    100% {
+    transform: translate3d(-50%, 0, 0);
+    }
+}
