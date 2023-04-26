@@ -1,18 +1,37 @@
 
 #main_container {
-background-color: red;
-max-width: 450px;
+    width: 600px; 
+    height: auto; 
+    position: relative;
+    margin-left: 300px;
 }
+
+#main_container img{ 
+    width: 100%; 
+    height: auto; 
+}
+
+#container {
+max-width: 600px;
+overflow: hidden;
+position: absolute;
+top: 75px;
+left: 0;
+z-index: 1;
+height: 145px;
+}
+
 .stage_animation {
 overflow: hidden;
 white-space: nowrap;
 display: inline-block;
 animation: stage_animation 5s linear infinite;
+margin-top: 25px;
 }
 .stage_animation p {
 display: inline-block;
 font-family: arial;
-color: #fff;
+color: white;
 font-size: 30px;
 }
 
